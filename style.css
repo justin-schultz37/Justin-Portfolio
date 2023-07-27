@@ -1,0 +1,26 @@
+* {
+    background-color: rgb(15, 15, 15);
+    color: white;
+
+}
+
+.headerstyle {
+    font-size: 50px;
+    margin-left: 15px;
+}
+
+.navstyle {
+    display: flex;
+    justify-content: right;
+    font-size: 20px;
+    margin: 10px;
+
+}
+
+.navstyle li {
+    display: inline;
+    justify-content: space-between;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-bottom: 1px solid white;
+}
