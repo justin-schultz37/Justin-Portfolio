@@ -1,0 +1,92 @@
+* {
+    background-color: rgba(143, 82, 2, 0.164);
+    color: white;
+
+}
+
+header {
+    border: 13px double white;
+    ;
+}
+
+.navcontainer {
+    display: flex-column;
+    justify-content: space-between;
+    margin: .5%;
+    padding: .5%;
+}
+
+.navcontainer ul {
+    display: flex;
+    justify-content: end;
+}
+
+.navcontainer li {
+    font-size: 2em;
+    margin-left: 1%;
+    padding: 1%;
+
+}
+
+.navcontainer h1 {
+    font-size: 5em;
+}
+
+.navcontainer a {
+    cursor: pointer;
+    padding: 10px;
+}
+
+.bigcontainer {
+    width: 98%;
+    height: 95vh;
+    background: url(../Assets/pexels-pixabay-207237.jpg) no-repeat center / cover;
+    margin: 1%;
+
+}
+
+.bigcontainer h2 {
+    font-size: 2.5em;
+    background-color: rgba(0, 0, 0, 0);
+    margin-top: 1%;
+    color: rgba(143, 82, 2, 0.573);
+}
+
+.profilepic {
+    margin-top: 1%;
+    height: 50%;
+    width: 25%;
+}
+
+.bigcontainer p {
+    border: 2px solid white;
+    width: 50%;
+    color: black;
+    background-color: rgba(16, 16, 16, 0);
+    width: 25%;
+    height: 25%;
+}
+
+.subcontainer {
+    display: flex;
+    border: 2px solid white;
+    margin: 1%;
+    padding: 1%;
+}
+
+.subcontainer h2 {
+    border: 1px solid white;
+    text-align: center;
+    padding: 5px;
+}
+
+.card {
+    flex-wrap: wrap;
+    border: 2px solid white;
+    margin-right: 10px;
+
+}
+
+.card p {
+    margin: 5px;
+}
