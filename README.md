@@ -20,3 +20,4 @@ THEN I am presented with a responsive layout that adapts to my viewport
 Resources to cite:
 https://meyerweb.com/eric/tools/css/reset/ - for reset css file
 https://www.codexworld.com/embed-pdf-document-file-in-html-web-page/- for embedding pdf.
+https://www.pexels.com/ - for stock images

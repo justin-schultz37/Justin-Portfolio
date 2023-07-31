@@ -12,7 +12,8 @@
 header {
     border: 13px double white;
     border-radius: var(--br30);
-    width: 100%
+    width: 100%;
+
 }
 
 .navcontainer {
@@ -86,11 +87,12 @@ header {
 }
 
 .subcontainer {
-    display: flex;
+    display: flex-column;
     border: 2px solid rgb(122, 10, 221);
     margin: var(--mgn1);
     padding: 2%;
     border-radius: var(--br30);
+
 }
 
 .card {
@@ -98,6 +100,7 @@ header {
     border: 2px solid rgb(26, 184, 37);
     margin: var(--mgn1);
     padding: 1%;
+
 
 }
 
