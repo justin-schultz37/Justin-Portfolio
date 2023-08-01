@@ -21,6 +21,7 @@ header {
     justify-content: space-between;
     margin: .5%;
     padding: .5%;
+
 }
 
 .navcontainer ul {
@@ -29,6 +30,10 @@ header {
     padding-right: 1%;
     padding-bottom: .5%;
 
+}
+
+.navcontainer a:hover {
+    background-color: rgba(172, 68, 7, 0.644);
 }
 
 .navcontainer li {
@@ -68,7 +73,7 @@ header {
     margin-left: 7.5%;
 }
 
-.profilepic {
+#profilepic {
     margin-top: 1%;
     height: 50%;
     width: 25%;
@@ -95,6 +100,14 @@ header {
 
 }
 
+.subcontainersmall {
+    display: flex;
+    border: 2px solid rgb(122, 10, 221);
+    margin: var(--mgn1);
+    padding: 2%;
+    border-radius: var(--br30);
+}
+
 .card {
     flex-wrap: wrap;
     border: 2px solid rgb(26, 184, 37);
@@ -105,6 +118,13 @@ header {
 }
 
 .subcontainer h2 {
+    border: 1px solid rgba(201, 32, 32, 0.872);
+    text-align: center;
+    padding: 1%;
+
+}
+
+.subcontainersmall h2 {
     border: 1px solid rgba(201, 32, 32, 0.872);
     text-align: center;
     padding: 1%;
@@ -126,5 +146,15 @@ header {
 
     .navcontainer a {
         padding: 0%;
+    }
+
+    .bigcontainer p {
+        border: 2px solid rgb(173, 28, 146);
+        color: rgb(7, 7, 7);
+        background-color: rgba(16, 16, 16, 0);
+        width: 40%;
+        height: 30%;
+        margin-left: var(--mgn1);
+        padding: 1%;
     }
 }
