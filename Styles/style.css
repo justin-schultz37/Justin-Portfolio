@@ -13,6 +13,8 @@ header {
     border: 13px double white;
     border-radius: var(--br30);
     width: 100%;
+    position: sticky;
+    top: 0;
 
 }
 
@@ -57,12 +59,10 @@ header {
 
 .bigcontainer {
     width: 98%;
-    height: 95vh;
+    min-height: 95vh;
     background: url(../Assets/pexels-pixabay-207237.jpg) no-repeat center / cover;
     margin: var(--mgn1);
     border-radius: var(--br30);
-
-
 }
 
 .bigcontainer h2 {
@@ -75,7 +75,6 @@ header {
 
 #profilepic {
     margin-top: 1%;
-    height: 50%;
     width: 25%;
     border-radius: var(--br30);
     margin-left: var(--mgn1);
@@ -86,7 +85,6 @@ header {
     color: rgb(7, 7, 7);
     background-color: rgba(16, 16, 16, 0);
     width: 23%;
-    height: 25%;
     margin-left: var(--mgn1);
     padding: 1%;
 }
@@ -104,35 +102,67 @@ header {
     display: flex;
     border: 2px solid rgb(122, 10, 221);
     margin: var(--mgn1);
-    padding: 2%;
+    padding: 1%;
     border-radius: var(--br30);
+    justify-content: space-evenly;
 }
 
 .card {
     flex-wrap: wrap;
     border: 2px solid rgb(26, 184, 37);
     margin: var(--mgn1);
-    padding: 1%;
-
-
+    padding: 5%;
+    background-image: url(../Assets/pexels-erik-torres-11722937.jpg);
 }
 
 .subcontainer h2 {
     border: 1px solid rgba(201, 32, 32, 0.872);
     text-align: center;
     padding: 1%;
-
+    background-color: rgba(255, 255, 255, 0.301);
 }
 
 .subcontainersmall h2 {
     border: 1px solid rgba(201, 32, 32, 0.872);
     text-align: center;
     padding: 1%;
+    background-color: rgba(212, 71, 20, 0.626);
+}
+
+footer {
+    border: 13px double white;
+    border-radius: var(--br30);
+    width: 100%;
+    background-color: rgba(143, 82, 2, 0.295);
 
 }
 
-.card p {
-    margin: var(--mgn1);
+.footercontainer {
+    margin: .5%;
+    padding: .5%;
+
+}
+
+.footercontainer ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 1%;
+    padding-bottom: .5%;
+
+}
+
+.footercontainer h3 {
+    font-size: 2.5em;
+    padding-left: 1%;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+
+.footercontainer li {
+    font-size: 1em;
+    margin-left: var(--mgn1);
+    padding: 1%;
+    border-radius: var(--br30);
 
 }
 
